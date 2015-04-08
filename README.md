@@ -7,6 +7,9 @@ Distributed Hierarchical Graph Neuron (DHGN) for associative-memory based patter
 ## Author
 
 Anang Hudaya Muhamad Amin 
+
 Thundercloud Research Lab 
+
 Faculty of Information Science & Technology (FIST) 
+
 Multimedia University 
