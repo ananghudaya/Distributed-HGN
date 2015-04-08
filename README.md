@@ -1,8 +1,8 @@
 # Distributed-HGN
 
-## About
+## Introduction
 
-Distributed Hierarchical Graph Neuron (DHGN) for associative-memory based pattern recognition
+This respository contains java classes for Distributed Hierarchical Graph Neuron (DHGN) implementation for simple pattern recognition application.
 
 ## Author
 
