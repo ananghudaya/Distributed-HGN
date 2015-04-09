@@ -41,16 +41,16 @@ To directly run the project from the command line with sample inputs provided, g
 
 Sample inputs provided in this package are seven 5-digit length patterns as shown in the following table:   
 
-|   Inputs      |
-|---------------|
-|   1 1 1 1 2   |
-|   1 1 1 1 2   |
-|   1 1 2 1 1   |
-|   1 2 1 1 1   |
-|   2 1 1 1 1   |
-|   1 1 6 1 2   |
-|   1 6 1 2 1   |
------------------
+| Position  | 1 | 2 | 3 | 4 | 5 |
+|-----------|---|---|---|---|---|
+| Pattern 1 | 1 | 1 | 1 | 1 | 2 |
+| Pattern 2 | 1 | 1 | 1 | 1 | 2 |
+| Pattern 3 | 1 | 1 | 2 | 1 | 1 |
+| Pattern 4 | 1 | 2 | 1 | 1 | 1 |
+| Pattern 5 | 1 | 1 | 1 | 1 | 1 |
+| Pattern 6 | 1 | 1 | 6 | 1 | 2 |
+| Pattern 7 | 1 | 6 | 1 | 2 | 1 |
+---------------------------------
 
 #### Output
 
