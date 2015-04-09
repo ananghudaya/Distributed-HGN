@@ -50,7 +50,7 @@ The output shows indices from all GNs within the HGN subnet composition.
 
 - `b[0]:1` shows the index 1 produced by base-layer GN with position 0.
 - `m[10]:1` shows the index 1 produced by first middle-layer GN with position 0.
-- `t:1` shows the index 1 produced by top-layer GN with position.
+- `t:1` shows the final index 1 produced by top-layer GN.
 
 ### Extracting jar file
 
