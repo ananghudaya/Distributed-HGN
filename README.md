@@ -17,11 +17,13 @@ This repo contains a "DHGN.jar" file for DHGN subnet implementation, together wi
 
 ## How to Execute?
 
+### Jar File Execution
+
 To directly run the project from the command line with sample inputs provided, go to the destination folder and type the following:
 
 `java -jar "DHGN.jar"` 
 
-### Sample inputs
+#### Sample inputs
 
 Sample inputs provided in this package are seven 5-digit length patterns as shown in the following table:   
 
@@ -35,6 +37,10 @@ Sample inputs provided in this package are seven 5-digit length patterns as show
 |   1 1 6 1 2   |
 |   1 6 1 2 1   |
 -----------------
+
+#### Output
+
+The output of recognition process using this DHGN recognition tool would be in the form of index for each of the particular input. Similar inputs may produce similar indices (recall), while new inputs introduced in the network will generate new indices.
 
 ## Author
 
