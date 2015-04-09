@@ -43,6 +43,14 @@ Thundercloud Research Lab.
 Faculty of Information Science & Technology (FIST).  
 Multimedia University.  
 
+## References
+
+Here are some references as the base for our work on DHGN:
+
+1. Amin, Anang Hudaya Muhamad, and Asad I. Khan. "A divide-and-distribute approach to single-cycle learning HGN network for pattern recognition." Control Automation Robotics & Vision (ICARCV), 2010 11th International Conference on. IEEE, 2010.  
+2. Amin, Anang Hudaya Muhamad, and Asad I. Khan. "Recognising complex patterns through a distributed multi-feature approach." Hybrid Intelligent Systems (HIS), 2011 11th International Conference on. IEEE, 2011.
+3. Amin, Anang Hudaya Muhamad, Asad I. Khan, and Benny B. Nasution. Internet-scale Pattern Recognition: New Techniques for Voluminous Data Sets and Data Clouds. CRC Press, 2012.
+
 ## Last Update
 
 9th of April 2015
