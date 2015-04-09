@@ -6,6 +6,13 @@ This respository contains java classes for Distributed Hierarchical Graph Neuron
 
 DHGN is an associative memory network that comprises a number of modified Hierarchical Graph Neuron (HGN) subnets and a Stimulator/Interpreter Module (SI Module) node. DHGN has been developed for distributed pattern recognition application, in which the respective recognition procedure can be applied in a distributed manner.
 
+## Contents
+
+This repo contains a "DHGN.jar" file for DHGN subnet implementation, together with input and parameter files. This jar file includes the following java classes:
+- DHGN.java
+- GN.java
+- BiasArray.java
+
 ## Author
 
 Anang Hudaya Muhamad Amin.  
@@ -19,4 +26,4 @@ This repo contains a jar file for DHGN subnet implementation, together with inpu
 
 ## Last Update
 
-Wednesday, 8th of April 2015
+Wednesday, 9th of April 2015
