@@ -17,10 +17,24 @@ This repo contains a "DHGN.jar" file for DHGN subnet implementation, together wi
 
 ## How to Execute?
 
-To run the project from the command line, go to the destination folder and type the following:
+To directly run the project from the command line with sample inputs provided, go to the destination folder and type the following:
 
-java -jar "DHGN.jar" 
+`java -jar "DHGN.jar"` 
 
+### Sample inputs
+
+Sample inputs provided in this package are seven 5-digit length patterns as shown in the following table:   
+
+|   Inputs      |
+|---------------|
+|   1 1 1 1 2   |
+|   1 1 1 1 2   |
+|   1 1 2 1 1   |
+|   1 2 1 1 1   |
+|   2 1 1 1 1   |
+|   1 1 6 1 2   |
+|   1 6 1 2 1   |
+-----------------
 
 ## Author
 
