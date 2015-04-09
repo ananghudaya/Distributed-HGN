@@ -4,7 +4,7 @@
 
 This respository contains java classes for Distributed Hierarchical Graph Neuron (DHGN) implementation for simple pattern recognition application.  
 
-DHGN is an associative memory network that comprises a number of modified Hierarchical Graph Neuron (HGN) subnets and a Stimulator/Interpreter Module (SI Module) node. Each HGN subnet consists of processing nodes known as Graph Neuron (GN). DHGN has been developed for distributed pattern recognition application, in which the respective recognition procedure can be applied in a distributed manner.
+DHGN is an associative memory network that comprises a number of modified Hierarchical Graph Neuron (HGN) subnets and a Stimulator/Interpreter Module (SI Module) node. Each HGN subnet consists of processing nodes known as Graph Neuron (GN) in a pyramid-like structure (See references for more details). DHGN has been developed for distributed pattern recognition application, in which the respective recognition procedure can be applied in a distributed manner.
 
 This package is the DHGN Java version of original Graph Neuron (GN) algorithm. This program accepts multiple-value patterns (up to 10000 patterns tested) with multiple character input element.
 
@@ -42,15 +42,23 @@ Sample inputs provided in this package are seven 5-digit length patterns as show
 
 The output of recognition process using this DHGN recognition tool would be in the form of index for each of the particular input. Similar inputs may produce similar indices (recall), while new inputs introduced in the network will generate new indices. The output is also automatically saved in output.txt file.
 
-Code below shows the output from the built-in input patterns:
+Code below shows a snippet of output from the built-in input patterns:
 
 `b[0]:1  b[1]:1  b[2]:1  b[3]:1  b[4]:1  m[10]:1 m[11]:1 m[12]:1 t:1`  
-`b[0]:1  b[1]:1  b[2]:1  b[3]:1  b[4]:1  m[10]:1 m[11]:1 m[12]:1 t:1`  
-`b[0]:1  b[1]:2  b[2]:1  b[3]:2  b[4]:1  m[10]:2 m[11]:2 m[12]:2 t:2`  
-`b[0]:2  b[1]:1  b[2]:2  b[3]:3  b[4]:1  m[10]:3 m[11]:3 m[12]:3 t:3`  
-`b[0]:1  b[1]:3  b[2]:1  b[3]:3  b[4]:1  m[10]:4 m[11]:4 m[12]:4 t:4`  
-`b[0]:1  b[1]:4  b[2]:1  b[3]:4  b[4]:1  m[10]:5 m[11]:5 m[12]:5 t:5`  
-`b[0]:3  b[1]:1  b[2]:3  b[3]:3  b[4]:2  m[10]:6 m[11]:6 m[12]:6 t:6`  
+
+The output shows indices from all GNs within the HGN subnet composition. 
+
+- `b[0]:1` shows the index 1 produced by base-layer GN with position 0.
+- `m[10]:1` shows the index 1 produced by first middle-layer GN with position 0.
+- `t:1` shows the index 1 produced by top-layer GN with position.
+
+### Extracting jar file
+
+The basic command to use for extracting the contents of a DHGN JAR file is:
+
+`jar xf jar-file DHGN.jar`
+
+To use different sets of input patterns, please modify the entry in `input.txt`.
 
 ## Author
 
