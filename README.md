@@ -40,7 +40,17 @@ Sample inputs provided in this package are seven 5-digit length patterns as show
 
 #### Output
 
-The output of recognition process using this DHGN recognition tool would be in the form of index for each of the particular input. Similar inputs may produce similar indices (recall), while new inputs introduced in the network will generate new indices.
+The output of recognition process using this DHGN recognition tool would be in the form of index for each of the particular input. Similar inputs may produce similar indices (recall), while new inputs introduced in the network will generate new indices. The output is also automatically saved in output.txt file.
+
+Code below shows the output from the built-in input patterns:
+
+`b[0]:1  b[1]:1  b[2]:1  b[3]:1  b[4]:1  m[10]:1 m[11]:1 m[12]:1 t:1`  
+`b[0]:1  b[1]:1  b[2]:1  b[3]:1  b[4]:1  m[10]:1 m[11]:1 m[12]:1 t:1`  
+`b[0]:1  b[1]:2  b[2]:1  b[3]:2  b[4]:1  m[10]:2 m[11]:2 m[12]:2 t:2`  
+`b[0]:2  b[1]:1  b[2]:2  b[3]:3  b[4]:1  m[10]:3 m[11]:3 m[12]:3 t:3`  
+`b[0]:1  b[1]:3  b[2]:1  b[3]:3  b[4]:1  m[10]:4 m[11]:4 m[12]:4 t:4`  
+`b[0]:1  b[1]:4  b[2]:1  b[3]:4  b[4]:1  m[10]:5 m[11]:5 m[12]:5 t:5`  
+`b[0]:3  b[1]:1  b[2]:3  b[3]:3  b[4]:2  m[10]:6 m[11]:6 m[12]:6 t:6`  
 
 ## Author
 
