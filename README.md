@@ -11,9 +11,9 @@ This package is the DHGN Java version of original Graph Neuron (GN) algorithm. T
 ## Contents
 
 This repo contains a "DHGN.jar" file for DHGN subnet implementation, together with input and parameter files. This jar file includes the following java classes:
-- DHGN.java
-- GN.java
-- BiasArray.java
+- DHGN.class * Main java class for DHGN implementation
+- GN.class
+- BiasArray.class
 
 ## How to Execute?
 
