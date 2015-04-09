@@ -15,13 +15,12 @@ This repo contains a "DHGN.jar" file for DHGN subnet implementation, together wi
 - GN.java
 - BiasArray.java
 
-## How to execute?
+## How to Execute?
 
-To run the project from the command line, go to the dist folder and type the following:
+To run the project from the command line, go to the destination folder and type the following:
 
 java -jar "DHGN.jar" 
 
-To distribute this project, zip up the dist folder (including the lib folder) and distribute the ZIP file.
 
 ## Author
 
