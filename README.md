@@ -26,4 +26,4 @@ This repo contains a jar file for DHGN subnet implementation, together with inpu
 
 ## Last Update
 
-Wednesday, 9th of April 2015
+9th of April 2015
