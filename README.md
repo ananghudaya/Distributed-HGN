@@ -1,3 +1,17 @@
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Distributed-HGN](#)
+	- [Introduction](#)
+	- [Contents](#)
+	- [How to Execute?](#)
+		- [Jar File Execution](#)
+			- [Sample inputs](#)
+			- [Output](#)
+		- [Extracting jar file](#)
+	- [Author](#)
+	- [References](#)
+	- [Last Update](#)
+
 # Distributed-HGN
 
 ## Introduction
